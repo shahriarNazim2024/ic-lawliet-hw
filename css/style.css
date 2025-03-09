@@ -1,0 +1,477 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section Start */
+.header_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: neutral/white;
+}
+
+.header {
+  max-width: 1320px;
+  width: 100%;
+  padding: 10px 25px;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_item {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+
+.menu_link {
+  text-decoration: none;
+}
+/* Header Section End */
+
+/* Hero Section Start */
+.hero_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f8f9;
+}
+
+.hero_container {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hero_left {
+  width: 150%;
+}
+.hero_heading {
+  font-family: playfair display;
+  font-weight: 700;
+  color: #094b72;
+  font-size: 90px;
+  line-height: 120%;
+  letter-spacing: 3px;
+  margin: 100px 0 25px 0;
+}
+
+.hero_description {
+  font-family: plus jakarta sans;
+  color: #4f4f4f;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 158%;
+  letter-spacing: 0.5%;
+  margin: 25px 0;
+}
+
+.get_started_btn {
+  padding: 15px;
+  background-color: #094b72;
+  color: #f9f8f9;
+  text-transform: uppercase;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 20%;
+  border-radius: 8px;
+  margin: 25px 0;
+}
+
+.hero_company {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  letter-spacing: 4%;
+  margin: 25px 0;
+}
+
+.hero_logos {
+  padding: 15px 15px 10px 0;
+}
+
+.airbnb {
+  padding: 15px 50px 10px 0;
+}
+
+.hero_right {
+  width: 50%;
+}
+/* Hero Section End */
+
+/* Why Section Start */
+.why_section {
+  width: 100%;
+  background-color: #edf0f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why_container {
+  max-width: 1320px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 100px 0;
+}
+
+.why_left {
+  width: 100%;
+}
+
+.why_left_heading {
+  font-family: Playfair Display;
+  color: #2d2f30;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  letter-spacing: 0.32px;
+}
+
+.why_left_description {
+  padding-top: 20px;
+  font-family: poppins;
+  color: #8b8c8c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.why_right {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 10px 20px;
+  box-sizing: 1px solid black;
+}
+
+.common_grid {
+  background-color: #fcfcfc;
+  padding: 15px 10px 25px 10px;
+  border-radius: 5px;
+}
+
+.corporate_heading,
+.environment_law_heading,
+.info_tech_heading,
+.other_services_heading {
+  font-family: Playfair Display;
+  color: #363940;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  margin: 5px 0 10px 0;
+}
+
+.other_services_description,
+.info_tech_description,
+.environment_law_description,
+.corporate_commercial_description {
+  font-family: Plus Jakarta Sans;
+  color: #999999;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+/* Why Section End */
+
+/* Achievement Section Start */
+.achievement_area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1282a6;
+}
+.achievement_container {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+
+.achievement_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievement_heading {
+  font-family: Playfair Display;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 0.6px;
+  padding: 25px 0 15px 0;
+}
+.achievement_description {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 25px 0;
+}
+
+.achievement_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+}
+
+.achievement_data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 40px;
+}
+
+.client_numbers,
+.number_years,
+.legalities_number {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+/* Achievement Section End */
+
+/* Testimonial Section Start */
+.testimonial_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2ecf1;
+  padding-bottom: 150px;
+}
+
+.testimonial_container {
+  max-width: 1320px;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.testimonial_heading {
+  font-family: Playfair Display;
+  font-weight: 700;
+  color: #2d2f30;
+  font-size: 48px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.clients_review {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-family: poppins;
+}
+
+.review_1_heading,
+.review_2_heading {
+  font-weight: 700;
+  font-size: 16px;
+  color: #151617;
+  padding: 10px 0;
+}
+.heading_description_1,
+.heading_description_2 {
+  background-color: #ffffff;
+  width: 95%;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  /* position: relative; */
+}
+
+.client_1 {
+  position: absolute;
+  margin-left: 205px;
+  margin-top: 6px;
+  display: flex;
+}
+
+.client_2 {
+  position: absolute;
+  margin-left: 205px;
+  margin-top: 6px;
+  display: flex;
+}
+.name_designation_1 {
+  padding-left: 15px;
+}
+/* Testimonial Section End */
+
+/* CTA Section Start */
+.cta_section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.cta_container {
+  /* max-width: 1320px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cta_left {
+  width: 95%;
+  padding-left: 150px;
+}
+
+.cta_left_heading {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0.5px;
+  color: #2d2f30;
+}
+
+.cta_left_description {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  padding: 30px 0;
+}
+
+.call_now {
+  padding: 7px 15px;
+  background-color: #0f6e8c;
+  border-radius: 5px;
+}
+
+.call_now_text {
+  padding: 0 7px;
+  font-size: 20px;
+  font-family: poppins;
+}
+
+.telephone_icon {
+  width: 20px;
+  height: 20px;
+}
+.cta_right {
+  width: 50%;
+}
+
+.cta_right_image {
+  border-radius: 0 0 0 20px;
+  height: auto;
+  width: 100%;
+}
+/* CTA Section End */
+
+/* Footer Section Start */
+.footer_section {
+  width: 100%;
+  background-color: #0f6e8c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_container {
+  width: 100%;
+  color: #f4f5f7;
+  font-family: inter;
+}
+
+.main_footer {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  padding-left: 250px;
+  align-content: start;
+}
+.footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 250px;
+}
+
+.product,
+.company {
+  padding: 10px 50px;
+}
+
+.product_heading,
+.company_heading,
+.support_heading {
+  font-size: 16px;
+  padding: 15px 0;
+}
+.product_menu,
+.company_menu,
+.support_menu {
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+
+.product_link,
+.company_link,
+.support_link {
+  text-decoration: none;
+  font-family: inter;
+  color: #f4f5f7;
+  font-size: 12px;
+  line-height: 25px;
+}
+.sub_footer {
+  background-color: #05546d;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 30px;
+}
+.globe_icon {
+  padding: 0 10px;
+}
+
+.twitter_icon {
+  padding-right: 10px;
+}
+/* Footer Section End */
